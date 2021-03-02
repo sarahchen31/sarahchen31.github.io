@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<!-- Front page, login/signup page -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Berkeley Pharma Tech</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- Adds fonts from Google -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Adds functions from Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+
+<script src="/__/firebase/8.1.1/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+  <script src="script.js"></script>
+
+        <div class="description" >
+          <h1 id = "bpt">Berkeley Pharma Tech</h1>
+          <h2 id="description">Ready for your mission?</h2>
+        </div>
+
+    <br>
+    <!-- Get inputs from players (email & password) -->
+    <div class="input-container">
+	
+			<label class="pad-label" for="email">email:</label>
+     
+          <input class="pad-input" type="text" id="email">
+		
+          <label class="pad-label" for="password">password:</label>
+          
+		  <input class="pad-input" type="text" id="password">
+		
+
+        </form>
+
+  </div>
+  <br>
+  <div class = 'button-container'>
+	<button class="button pad-input" style="border: none" type="submit" id="signUpSubmit">Sign Up</button>
+	<button class="button" id='login'>Login</button>
+  </div>
+
+  <br>
+
+
+   <div class="description" >
+   <h1 id = "bpt">How To Play</h1>
+   <h2 id="description">Controls</h2>
+   </div>
+
+   <img src="Controls.png" alt="Controls" class="center">
+
+   <div class="instructionAWSD">
+    PRESS <b>W</b> TO GO <b>UP</b> </br>
+    PRESS <b>S</b> TO GO <b>DOWN</b> </br>
+    PRESS <b>A</b> TO GO <b>LEFT</b> </br>
+    PRESS <b>D</b> TO GO <b>RIGHT</b> </br>
+  </div>
+
+  <br>
+
+  <div class="mouse">
+    PRESS DOWN ON YOUR MOUSE/TRACKPAD TO SHOOT
+  </div>
+
+  <br>
+
+  <div class="sixBullets">
+    HIT COVID PARTICLE WITH 6 BULLETS FOR THE KILL
+  </div>
+
+  <br>
+
+
+
+</body>
+
+</html>
